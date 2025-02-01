@@ -1,17 +1,17 @@
 const HeroSection = () => {
     return (
-        <section className="  pt-[212px] pb-[289px] relative  ">
-            <h1 className="gradient-text text text-center font-bold   text-[136px] uppercase max-w-[873px] mx-auto leading-[86px]  animate-fade-up ">
+        <section className="  lg-pt-[212px] pb-[289px] relative  ">
+            <h1 className="gradient-text text text-center font-bold text-[50px] lg:text-[136px] uppercase max-w-[873px] mx-auto lg:leading-[86px]  animate-fade-up ">
                 Stay
                 <br /> Immortal!
             </h1>
-            <p className="font-roboto-mono up max-w-[503px] mx-auto text-center mt-5 text-xl">
+            <p className="font-roboto-mono up max-w-[503px] mx-auto text-center mt-5 text-md lg:text-xl">
                 Endlessly enjoy freedom social with ultimate JellyFish services.
             </p>
 
-            <div className="  -z-20 absolute -bottom-[43%] -[200px] left-1/2 -translate-x-1/2 ">
+            <div className="  -z-20 absolute -bottom-[43%] -[200px] left-1/2 -translate-x-1/2">
                 <img
-                    className="animate-fade-up    "
+                    className="animate-fade-up"
                     src="/svg/half-ring.svg"
                     alt="/half-ring"
                     height={700}
